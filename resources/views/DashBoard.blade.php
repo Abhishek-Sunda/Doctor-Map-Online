@@ -1,4 +1,4 @@
 @include('Header')
 
 
-<!-- @include('footer') -->
+@include('footer') 

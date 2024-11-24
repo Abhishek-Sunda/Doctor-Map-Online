@@ -1,20 +1,16 @@
-<div id="nav-bar">
-  <input id="nav-toggle" type="checkbox"/>
-  <div id="nav-header"><a id="nav-title" target="_blank"><i class="fab fa-codepen">My Doctor Online</i></a>
-    <label for="nav-toggle"><span id="nav-toggle-burger"></span></label>
-    <hr/>
-  </div>
-  <div id="nav-content">
-    <div class="nav-button"><i class="fas fa-palette"></i><span>My Profile</span></div>
-    <div class="nav-button"><i class="fas fa-images"></i><span>My Doctors</span></div>
-    <div class="nav-button"><i class="fas fa-thumbtack"></i><span>Booking</span></div>
-    <hr/>
-    <div class="nav-button"><i class="fas fa-heart"></i><span>Notification</span></div>
-    <div class="nav-button"><i class="fas fa-chart-line"></i><span>History</span></div>
+   <!-- Sidebar -->
+   <div class="sidebar" style="text-align:center;">
+        <span class="navbar-logo">
+          My Doctor Online
+        </span>
+        <hr class="navbar-logo">
+        <div class="nav-button"><i class="fas fa-palette"></i><span>My Profile</span></div>
+        <div class="nav-button"><i class="fas fa-images"></i><span>My Doctors</span></div>
+        <div class="nav-button"><i class="fas fa-thumbtack"></i><span>Booking</span></div>
+        <div class="nav-button"><i class="fas fa-heart"></i><span>Notification</span></div>
+        <div class="nav-button"><i class="fas fa-chart-line"></i><span>History</span></div>
+    </div>
 
-    <hr/>
- 
-    <div id="nav-content-highlight"></div>
-  </div>
-</div>
-
+    <div class="navbar">
+        <button class="sidebar-toggle" onclick="toggleSidebar()"><i class="fas fa-bars"></i></button>
+    </div>
