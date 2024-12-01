@@ -2,5 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-
-Route::any('/', function(){return view('DashBoard');});
+Route::get('/', function () {
+    return view('Dashboard');
+});
